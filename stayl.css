@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+
+header {
+
+    display: flex;
+    align-items: center;
+    padding: 20px 19px ;
+    background-color:#3e044d;
+    position: sticky;
+    top: 0;
+}
+
+
+.left-section img {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.content-area a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+}
+
+.mids-section a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    right: -50px;
+}
+
+.right-section a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    right: -100px;
+}
+
+.nav-link:hover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    padding: 5px 8px 5px 5px;
+    background-color: rgba(120, 29, 240, 0.9);
+    border-radius: 9999px;
+    width: fit-content;
+}
+div::before {
+    border-left: 2px solid #000;
+    height: 33px;
+    content: " ";
+    margin-left: 7px;
+    position: absolute;
+    top: 18px;
+    left: 14%;
+}
+main h1{
+    font-size: 2.2rem;
+    color: #7d2b90;
+    padding: 50px 21%;
+    text-transform: uppercase;
+    align-items: center;
+
+}
+main a li {
+    font-size:large;
+    color:blue;
+}
+li {
+    display: flex;
+    padding: 25px 52px;
+    font-size: 1.9rem;
+    color: rgb(25, 0, 246);
+    margin: auto;
+}
+
+
+hr {
+    color: wheat;
+    border-style: solid;
+    margin: 20px;
+    margin-top: 12%;
+
+    
+}
+
+
+.menu {
+    display: flex;
+    margin: auto;
+
+  }
+
+.m-banner p {
+    align-items: center;
+    padding: 2% 13%;
+    font-size: 1.5rem;
+    color: rgb(25, 0, 246);
+}
+@media screen and (max-width : 1260px) {
+    header {
+        width: 90%;
+        padding: 9% 20px;
+    }
+    main {
+        margin-left: 10%;
+    }
+    header span{
+        display: flex;
+    }
+    header .padding-top-12 {
+        width: 55px;
+        border-radius: 50%;
+        font-size: 1.2rem;
+    }
+}
